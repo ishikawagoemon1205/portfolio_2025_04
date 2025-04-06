@@ -9,7 +9,6 @@ export default function page2() {
                     Hello! I'm Atsuhiro Ishikawa, a frontend engineer passionate about creating intuitive and high-performance web applications. I enjoy writing clean, scalable code and designing UI that delivers smooth user experiences.
                     I have worked on multiple web application development projects through in-house development, SES companies, and personal projects. My expertise lies in building user-centered designs while optimizing for performance and responsiveness.
                 </p>
-                {/* <Link href="/#about"><p className="text-[30px]" style={{color: RED_MODE_COLOR}}>Read more .....</p></Link> */}
             </div>
         </>
     )

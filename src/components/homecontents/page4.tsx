@@ -10,7 +10,6 @@ export default function page4() {
                     However, I quickly realized the challenges of sustainability and trust-building in running a company. This experience led me to recognize the power of engineering as a way to independently create and deliver value.
                     Since then, I’ve devoted myself to acquiring technical skills and building hands-on experience in software development. My passion for creating things evolved into a full commitment to the world of technology and product development.
                 </p>
-                {/* <Link href="/#about"><p className="text-[30px]" style={{color: RED_MODE_COLOR}}>Read more .....</p></Link> */}
             </div>
         </>
     )

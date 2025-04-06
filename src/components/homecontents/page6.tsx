@@ -1,7 +1,3 @@
-import Link from "next/link"
-
-import {RED_MODE_COLOR} from "@/_constants/colors";
-
 export default function page6() {
 
     return(
@@ -16,7 +12,6 @@ export default function page6() {
                     ・Flexible yet accountable work styles<br/>
                     Whether you're looking for quick implementation support or a long-term product partner, I'm ready to contribute.
                 </p>
-                {/* <Link href="/#about"><p className="text-[30px]" style={{color: RED_MODE_COLOR}}>Read more .....</p></Link> */}
             </div>
         </>
     )
