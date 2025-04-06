@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import {DARK_MODE_COLOR, RED_MODE_COLOR } from "@/_constants/colors";
+import { DARK_MODE_COLOR, RED_MODE_COLOR } from "@/_constants/colors";
 
 export default function Navbar() {
     const [scrollPercentage, setScrollPercentage] = useState(0);
@@ -39,24 +39,26 @@ export default function Navbar() {
 
             {/* ナビバー */}
             <div className="absolute w-full h-[80px] flex items-center justify-center">
-                <div className="w-[1024px] h-full flex items-center fixed z-[1000]">
-                    <div className="pl-[10px]"><p>Atsuhiro Ishikawa</p></div>
+                <div className="w-full sm:w-[1024px] h-full flex items-center fixed z-[1000] sm:px-0">
+                    <div className="pl-[10px] flex justify-between w-full sm:w-auto">
+                        <p className="text-lg sm:text-2xl">Atsuhiro Ishikawa</p>
+                    </div>
                     <div className="flex-grow flex justify-end items-center">
                         <button
-                            className="relative w-10 h-10 flex flex-col justify-center items-center"
+                            className="relative w-10 h-10 flex flex-col justify-center items-center sm:w-12 sm:h-12"
                             onClick={() => setIsOpen(!isOpen)}
                         >
                             {/* 上の線 */}
                             <motion.div
                                 className="w-8 h-1 rounded absolute"
-                                style={{background: DARK_MODE_COLOR}}
+                                style={{ background: DARK_MODE_COLOR }}
                                 animate={isOpen ? { rotate: 45, y: 0 } : { rotate: 0, y: -6 }}
                                 transition={{ duration: 0.3 }}
                             />
                             {/* 下の線 */}
                             <motion.div
                                 className="w-8 h-1 rounded absolute"
-                                style={{background: DARK_MODE_COLOR}}
+                                style={{ background: DARK_MODE_COLOR }}
                                 animate={isOpen ? { rotate: -45, y: 0 } : { rotate: 0, y: 6 }}
                                 transition={{ duration: 0.3 }}
                             />
