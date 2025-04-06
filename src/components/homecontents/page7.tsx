@@ -1,7 +1,3 @@
-import Link from "next/link"
-
-import {RED_MODE_COLOR} from "@/_constants/colors";
-
 export default function page6() {
 
     return(

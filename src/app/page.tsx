@@ -1,6 +1,6 @@
 "use client";
 
-import {BLACK_MODEL_COLOR, NIGHTBLUE_MODEL_COLOR, LIGHT_MODE_COLOR, BACKGROUND_WHITE} from "@/_constants/colors";
+import {BLACK_MODEL_COLOR, BACKGROUND_WHITE} from "@/_constants/colors";
 import {useEffect, useRef} from "react"
 import {gsap} from "gsap"
 import { ScrollTrigger } from "gsap/all";

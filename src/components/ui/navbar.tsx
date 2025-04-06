@@ -1,9 +1,7 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { LIGHTBLUE_MODE_COLOR, ORANGE_MODEL_COLOR, LIGHT_MODE_COLOR, DARK_MODE_COLOR, RED_MODE_COLOR } from "@/_constants/colors";
+import {DARK_MODE_COLOR, RED_MODE_COLOR } from "@/_constants/colors";
 
 export default function Navbar() {
     const [scrollPercentage, setScrollPercentage] = useState(0);
