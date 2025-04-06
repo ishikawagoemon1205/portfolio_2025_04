@@ -10,7 +10,7 @@ export default function page6() {
                     ・Clear expectations<br/>
                     ・Proactive updates<br/>
                     ・Flexible yet accountable work styles<br/>
-                    Whether you're looking for quick implementation support or a long-term product partner, I'm ready to contribute.
+                    Whether you&apos;re looking for quick implementation support or a long-term product partner, I&apos;m ready to contribute.
                 </p>
             </div>
         </>
